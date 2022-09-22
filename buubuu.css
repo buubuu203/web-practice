@@ -1,0 +1,88 @@
+body
+{
+    font-family: 'Serif',Garamond;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navigation li
+{
+    font-weight: 200;
+    letter-spacing: 2px;
+    padding: 25px;
+}
+
+.navigation li.logo
+{
+    color: gray;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+#banner
+{
+    background-image: url("https://i.pinimg.com/564x/be/81/e0/be81e0fd9bc51b984bcc9284670cdeeb.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 1300px;
+}
+
+
+#banner .content h1
+{
+    text-shadow: 1px;
+    font-weight: 300;
+}
+
+#main
+{
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+i
+{
+    color: rgb(5, 28, 71);
+    font-size: 25px;
+    font-weight:900;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 10px;
+}
+
+h2
+{
+    color: rgb(58, 52, 52);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 10px;
+}
+
+p
+{
+    color: grey;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    padding: auto;
+}
+
+a
+{
+    color: gray;
+}
