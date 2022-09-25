@@ -1,0 +1,117 @@
+body
+{
+    background-color: #fff;
+    margin:0 auto;
+}
+
+header
+{
+    background-color: rgb(184, 104, 118);
+    border-bottom: 1px solid rgb(184, 104, 118) ;
+    position: fixed;
+    width:100%;
+    z-index: 10;
+}
+
+ul
+{
+    margin: 30px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+li
+{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 80px;
+}
+
+.welcome
+{
+    margin: 50px auto;
+    padding: 80px 20px 20px 30px;
+    text-align: center;
+    background-color: rgba(185, 110, 92, 0.747);
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+
+.welcome h1
+{
+    color: #955646;
+    font-size: 32px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.question h3
+{
+    font-family: 'Oswald' sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: rgba(180, 47, 47, 0.841);
+    letter-spacing: 2px ;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.question h2
+{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: black;
+    /* letter-spacing: 1px ; */
+    text-align: center;
+    /* text-transform: uppercase; */
+    margin: 0 auto 20px;;
+}
+
+.question h4
+{
+    font-family: 'Oswald' sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(85, 15, 15, 0.841);
+    text-align: center;
+    text-transform: uppercase;
+    margin: 25px;
+}
+
+.answer
+{
+    border: 1px solid rgb(91, 10, 10);
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 400;
+}
+
+.answer:hover
+{
+    background:  #c68c41;
+    color: #fff;
+}
+
+.question
+{
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+footer
+{
+    background-color: #d7836e;
+    text-align: center;
+    text-decoration: double;
+    text-transform: uppercase;
+    padding: 10px 10px 20px 10px;
+    margin-top: 40px;
+    color: rgb(153, 63, 14);
+}
